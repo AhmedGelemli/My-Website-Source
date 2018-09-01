@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Cabin+Sketch|Comfortaa|Concert+One|Inconsolata');
+.specialheading {
+    background: whitesmoke;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.tablehead {
+    background: rgba(0, 0, 0, 0.623);
+    color: white;
+    vertical-align: middle;
+}
+
+.tags {
+    color: white;
+    background: royalblue;
+    vertical-align: middle;
+}
+
+.descriptions {
+    color: white;
+    background: forestgreen;
+    vertical-align: middle;
+}
+
+.examples {
+    color: white;
+    background: rgb(255, 102, 0);
+    vertical-align: middle;
+}
+
+.use {
+    color: white;
+    background: yellowgreen;
+    vertical-align: middle;
+}
+
+.notuse {
+    color: white;
+    background: rgba(255, 0, 0, 0.820);
+    vertical-align: middle;
+}
+
+.newuse {
+    color: white;
+    background: lightseagreen;
+    vertical-align: middle;
+}
+.codelangforhome {
+    color: black;
+    background: rgb(255, 255, 0);
+    padding: 8px;border-radius: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 1023px) {
+    div#feedbackwillhide{ display: none !important; }
+ }

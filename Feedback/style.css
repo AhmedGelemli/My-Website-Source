@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body {
+    background-color: aliceblue;
+}
+h1 {
+    text-align: center;
+    color:steelblue;
+    font-family: 'Comfortaa', cursive;
+    font-size: 34px;
+}
+form {
+    margin-top: 40px;
+    text-align: center;
+    position: fixed;
+    background: whitesmoke;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-shadow: 0px 0px 20px 0px black;
+    border-radius: 10px;
+}
+input {
+    transition-duration: 0.4s;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 25px;
+    margin: 4px;
+    outline: none;
+    border: none;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    padding: 10px;
+}
+input:hover {
+    transition-duration: 0.4s;
+    color: rgba(0, 0, 0, 0.4);
+    background: rgba(128, 128, 128, 0.1);
+}
+input:hover::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+input:focus {
+    transition-duration: 0.4s;
+    background: black;
+    color: white;
+    border-bottom-color: rgba(0, 255, 0, 0.8);
+    border-bottom-width: 3px;
+}
+input:focus::placeholder {
+    color: rgb(255, 255, 255);
+}
+input#send {
+    width: 315px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.9);
+    height: auto;
+    color: white;
+}
+input#send:hover {
+    background-color: rgba(128, 128, 128, 0.8);
+    cursor: pointer;
+}
+textarea {
+    transition-duration: 0.2s;
+    width: 300px;
+    height: 100px;
+    resize: none;
+    outline: none;
+    border: none;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 10px;
+}
+textarea:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+textarea:focus {
+    background: black;
+    color: white;
+    border-bottom-color: rgba(0, 255, 0, 0.8);
+    border-width: 3px;
+}
+textarea:focus::placeholder {
+    color: white;
+}
+
+
+/* For mobile devices */
+
+@media only screen and (max-width: 1023px) {
+    body {
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+    form {
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+}
