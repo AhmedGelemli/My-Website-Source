@@ -10,8 +10,9 @@
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgb(49, 49, 49); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+    border: none;
 }
 
 /* Modal Content */
@@ -19,8 +20,8 @@
     background-color: #221414;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+    border: none;
+    width: 100%;
 }
 
 /* Modal Header */
@@ -29,18 +30,22 @@
     padding: 15px;
     background-color:lightcyan;
     color: white;
+    border: none;
+
 }
 
 /* Modal Body */
 .modal-body {
-	padding: 20px;
+    padding: 20px;
+    border: none;
+
 }
 
 
 /* Modal Content */
 .modal-content {
     position: relative;
-    background-color: #221414;
+    background-color: rgba(49, 49, 49, 0.4);
     font-family: monospace;
     font-weight: 500;
     word-wrap: normal;
@@ -50,20 +55,21 @@
     padding: 0;
     border: 1px solid #888;
     width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
     animation-duration: 0.7s;
     font: bold;
+    border: none;
 }
 #closespan {
     color:black; 
     cursor: pointer; 
     background: lightgreen; 
     padding: 5px; 
-    border-radius:1600px; 
+    border-radius:50%; 
     float: right; width: 35px; 
     vertical-align: middle; 
     font-weight:530;
+    border: none;
 }
 
 /* Add Animation */
