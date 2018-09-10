@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Play');
 
 body {
     background-color: aliceblue;
@@ -6,8 +6,8 @@ body {
 h1 {
     text-align: center;
     color:steelblue;
-    font-family: 'Comfortaa', cursive;
-    font-size: 34px;
+    font-family: 'Play', sans-serif;
+    font-size: 45px;
 }
 form {
     margin-top: 40px;
